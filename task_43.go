@@ -7,6 +7,5 @@ func main() {
 	var num int
 	fmt.Scanln(&num)
 
-	// Вывод предыдущего и следующего числа с пояснением
 	fmt.Print(num % 10)
 }
