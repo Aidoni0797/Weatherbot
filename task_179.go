@@ -19,7 +19,7 @@ func main() {
 
 		// Если строка совпала с искомой, выводим номер и завершаем
 		if line == target {
-			fmt.Println(count - 1)
+			fmt.Println(count)
 			return
 		}
 		count++ // Увеличиваем номер
