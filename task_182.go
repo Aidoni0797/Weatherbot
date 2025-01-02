@@ -12,7 +12,7 @@ func main() {
 	for i := 1; i <= n; i++ {
 		// Если число кратно c, но не кратно d, выводим его
 		if i%c == 0 && i%d != 0 {
-			fmt.Println(i, " ")
+			fmt.Println(i)
 		}
 	}
 }
