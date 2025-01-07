@@ -14,7 +14,7 @@ func main() {
 		}
 	}
 	cnt = numbers[len(numbers)-1]
-	for i := 0; i < len(numbers)-1; i++ {
+	for i := 0; i < len(numbers); i++ {
 		if i > 0 {
 			cnt1 = numbers1[i-1]
 			numbers[i] = cnt1
